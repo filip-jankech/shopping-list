@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  margin: 2rem 0;
+}
+
+h2 {
+  margin: 2rem 0;
+}
+
+.button {
+  border: 2px solid #000;
+  color: #000;
+  border-radius: 5px;
+  padding: 0.5rem 1.3rem;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  background-color: transparent;
+  margin-right: 0.7rem;
+  margin-bottom: 1rem;
+}
+
+.button:hover {
+  border: 2px solid #000;
+  background-color: #000;
+  color: #fff;
+  transition: all 0.2s ease;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+.top {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+input {
+  display: block;
+  outline: none;
+  width: 100%;
+  padding: 0.55rem 1.3rem;
+  border: 2px solid #000;
+  border-radius: 5px;
+  margin-bottom: 0.7rem;
+}
+
+.add {
+  background-color: #000;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.lists {
+  margin-top: 2.5rem;
+}
+
+.item {
+  position: relative;
+  margin-top: 0.5rem;
+  background-color: #000;
+  color: #fff;
+  padding: 0.8rem 1.3rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item a,
+.item i {
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.item a:hover,
+.item i:hover {
+  opacity: 70%;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+i {
+  cursor: pointer;
+}
+
+.bread-crumbs h4 {
+  display: flex;
+  align-items: center;
+}
